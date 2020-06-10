@@ -33,6 +33,15 @@ def new_meal(customer, total, tip)
       end
         best_tip.customer 
   end
+
+  # A waiters most frequent customer
+
+  def frequent_customer
+    binding.pry
+  end
+# The meal of a waiters worst tipping customer
+# The average tips for the most experienced waiter and the average tips for the least experienced waiter
+
 end 
 
 
